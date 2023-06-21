@@ -1,0 +1,198 @@
+body {
+  font-family: "Press Start 2P", cursive;
+  margin: 0;
+  padding: 0;
+  background-image: url("photo/desertbg.gif");
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+.game-container {
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.ground {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  border-top: 5px solid rgba(0, 0, 0, 0.5);
+}
+
+.dinosaur {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  width: 80px;
+  height: 80px;
+  background-image: url("photo/dino1.png");
+  background-size: cover;
+}
+
+.obstacle {
+  position: absolute;
+  bottom: 0;
+}
+
+.cactus {
+  width: 60px;
+  height: 60px;
+  background-image: url("photo/cactus.png");
+  background-size: cover;
+  bottom: 0;
+}
+
+.bird {
+  width: 60px;
+  height: 50px;
+  background-image: url("photo/bird.gif");
+  background-size: cover;
+  bottom: 200px;
+}
+
+.tree {
+  width: 60px;
+  height: 60px;
+  background-image: url("photo/tree.png");
+  background-size: cover;
+  bottom: 0;
+}
+
+#score {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 30px;
+  color: #2F4F4F;
+}
+
+#hearts {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.heart {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-image: url("photo/heart.png");
+  background-size: cover;
+  margin-right: 5px;
+}
+
+.pixelated-text1{
+  font-family: "Press Start 2P", cursive;
+  font-size: 25px;
+  color: white;
+}
+.pixelated-text {
+  font-family: "Press Start 2P", cursive;
+  font-size: 16px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+}
+
+.modal h2 {
+  margin-top: 0;
+  font-family: "Press Start 2P", cursive;
+}
+
+#close {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+
+.pixelated-text {
+  font-family: "Press Start 2P", cursive;
+  font-size: 16px;
+}
+
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("photo/desertbg.gif");
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+#start-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+}
+
+.modal h2 {
+  margin-top: 0;
+  font-family: "Press Start 2P", cursive;
+}
+
+#close {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #000; 
+  color: #fff; 
+  border: none;
+  cursor: pointer;
+  font-family: "Press Start 2P", cursive;
+}
+
+#close p {
+  margin: 0;
+}
+
+#close:hover {
+  background-color: #333; 
+}
+

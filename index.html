@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dinosaur Game</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main-menu">
+      <h2 class="pixelated-text1">Динозаврик</h2>
+      <h1 class="pixelated-text"></h1>
+      <button id="start-button" class="pixelated-text">Начать игру</button>
+    </div>
+    
+    <div class="game-container">
+      <div id="game-container">
+        <div class="ground"></div>
+        <div class="dinosaur" id="dinosaur"></div>
+      </div>  
+      <div id="dinosaur"></div>
+      <div id="score">Score: 0</div>
+      <div id="hearts">
+        <div class="heart"></div>
+        <div class="heart"></div>
+        <div class="heart"></div>
+      </div>
+    </div>
+    
+    <div id="game-over" class="modal">
+      <div class="modal-content">
+        <h2>Game Over</h2>
+        <h2>Final Score: </h2><span id="final-score"></span></p>
+        <button id="close"><p>Play Again</p></button>
+      </div>
+    </div>
+    <audio id="bg-music" src="audio/08. Hotline.mp3" loop></audio>
+    <script src="script.js"></script>
+  </body>
+</html>
+
